@@ -1,0 +1,167 @@
+
+.search-box {
+	padding: 10px 15px;
+}
+
+.search-box input {
+	height: 34px;
+}
+
+.item-list {
+	background-color: #fff;
+}
+
+.item-list li {
+	width: 100%;
+	padding: 5px 15px;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+}
+
+.item-list li:active {
+	background-color: #ddd;
+}
+
+.item-list li a {
+	display: block;
+	overflow: hidden;
+}
+
+.item-list li:first-child {
+	border-top: 1px solid #eee;
+}
+
+.item-list li.divider {
+	height: auto;
+	padding-left: 15px;
+	background-color: #eee;
+	border-bottom: 0;
+}
+
+.item-list .icon {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 3px;
+	text-align: center;
+	overflow: hidden;
+	float: left;
+}
+
+.item-list .icon img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.item-list .text {
+	float: left;
+	margin-left: 10px;
+}
+
+.item-list .text h3 {
+	line-height: 50px;
+	font-size: 18px;
+}
+
+.item-list .text .top-text {
+	font-size: 18px;
+	margin-bottom: 8px;
+	margin-top: 5px;
+}
+
+.item-list .text .bottom-text {
+	font-size: 14px;
+}
+
+.nav-fixed-right {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	width: 15px;
+	z-index: 999;
+}
+
+.nav-fixed-right li {
+	height: 16px;
+	line-height: 16px;
+}
+
+.nav-fixed-right li a {
+	color: #787b87 !important;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.section {
+	margin-top: 10px;
+	background-color: #fff;
+	padding: 0 15px;
+}
+
+.yg-info-basic {
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+}
+
+.yg-info-basic .icon {
+	width: 60px;
+	height: 60px;
+	line-height: 50px;
+	border-radius: 3px;
+	text-align: center;
+	overflow: hidden;
+	float: left;
+}
+
+.yg-info-basic .icon img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.yg-info-basic .text {
+	float: left;
+	margin-left: 10px;
+}
+
+.yg-info-basic p {
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.yg-info-basic p:first-child {
+	margin-top: 2px;
+}
+
+.yg-info-basic .yg-name {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.yg-info-other .item {
+	padding: 15px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.yg-info-other .item:last-child {
+	border-bottom: 0;
+}
+
+.yg-info-other .label {
+	display: block;
+	width: 100px;
+	font-size: 16px;
+	float: left;
+}
+
+.yg-info-other .info {
+	font-size: 16px;
+	margin-left: 100px;
+}
+
+.btn-section {
+	background-color: #eee;
+	padding: 10px 15px 0 15px;
+}

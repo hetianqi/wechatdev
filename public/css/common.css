@@ -1,0 +1,84 @@
+﻿/*css reset start*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, 
+q, samp, small, strike, strong, sub, sup, tt, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { 
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+*, *:after, *:before {
+   box-sizing: border-box; 
+}
+ol, ul { 
+    list-style: none; 
+}
+body {
+    font-family: 'Microsoft YaHei', Arial, helvetica, sans-serif;
+}
+p {
+    font-size: 12px;
+}
+/*css reset end*/
+
+/*通用样式类 start*/
+.text-justify {
+    overflow: hidden;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    text-align-last: justify;
+}
+.text-justify:after {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    line-height: 0;
+    content: "";
+}
+/*通用样式类 end*/
+
+/*重置jquery mobile 的样式 start*/
+.ui-page-theme-a a, 
+html .ui-bar-a a, 
+html .ui-body-a a, 
+html body .ui-group-theme-a a {
+    color: #000;
+    font-weight: normal;
+}
+.ui-page-theme-a a:visited, 
+html .ui-bar-a a:visited, 
+html .ui-body-a a:visited, 
+html body .ui-group-theme-a a:visited {
+    color: #000;
+}
+.ui-content {
+    padding: 0;
+}
+.ui-page-theme-a {
+    background-color: #eee !important;
+}
+.ui-btn {
+    font-weight: normal;
+    margin: 0;
+}
+.divider {
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+}
+/*重置jquery mobile 的样式 end*/
+
+/*按钮样式 start*/
+.ui-page-theme-a .ui-btn-green,
+.ui-page-theme-a .ui-btn-green:hover {
+    background-color: #06BE04;
+    color: #D3FED3;
+}
+
+.ui-page-theme-a .ui-btn-green:active {
+    background-color: #05AC04;
+}
+/*按钮样式 end*/

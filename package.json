@@ -1,0 +1,22 @@
+{
+  "name": "wechatmp",
+  "version": "1.0.0",
+  "description": "wechatmp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechatmp"
+  ],
+  "author": "heron",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "mssql": "^3.0.0",
+    "xml2js": "^0.4.16"
+  }
+}

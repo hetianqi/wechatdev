@@ -1,0 +1,114 @@
+extend ../_layout
+
+block styles
+	link(rel="stylesheet", href="/css/contact.css")
+
+block body
+	#index(data-role="page", title="通讯录")
+		main(role="main", class="ui-content")
+			.search-box
+				input#search-contact(type="search", placeholder="部门或姓名")
+			.divider
+			ul.item-list
+				li
+					a(href="#contactList", data-role="link", data-transition="slide", data-key="迈普通信")
+						.icon
+							img(src="/img/weixin.png")
+						.text
+							h3| 迈普通信
+				li
+					a(href="#contactList", data-role="link", data-transition="slide", data-key="常用电话")
+						.icon
+							img(src="/img/weixin.png")
+						.text
+							h3| 常用电话
+
+	#contactList(data-role="page", title="迈普通信")
+		main.ui-content(role="main")
+			.search-box
+				input#search-contact(type="search", placeholder="部门或姓名")
+			.divider
+			ul.item-list
+				li.divider
+					p#nav_A| A
+				li
+					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
+						.icon
+							img(src="/img/weixin.png")
+						.text
+							p.top-text| 何霖
+							p.bottom-text| 流程及IT部
+				li
+					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
+						.icon
+							img(src="/img/weixin.png")
+						.text
+							p.top-text| 何霖
+							p.bottom-text| 流程及IT部
+				li
+					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
+						.icon
+							img(src="/img/weixin.png")
+						.text
+							p.top-text| 何霖
+							p.bottom-text| 流程及IT部
+				li
+					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
+						.icon
+							img(src="/img/weixin.png")
+						.text
+							p.top-text| 何霖
+							p.bottom-text| 流程及IT部
+				li
+					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
+						.icon
+							img(src="/img/weixin.png")
+						.text
+							p.top-text| 何霖
+							p.bottom-text| 流程及IT部
+				li
+					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
+						.icon
+							img(src="/img/weixin.png")
+						.text
+							p.top-text| 何霖
+							p.bottom-text| 流程及IT部
+		nav.nav-fixed-right
+			ol
+				li
+					a(href="#nav_A")| A
+				li
+					a(href="#nav_B")| B
+	
+	#contactDetail(data-role="page", title="详细信息")
+		main.ui-content(role="main")
+			section.section.yg-info-basic
+				.icon
+					img(src="/img/weixin.png")
+				.text
+					p
+						span.yg-name| 何霖
+					p
+						span.label| 工号：
+						span.yg-gh| 006403
+					p
+						span.label| 性别：
+						span.yg-dep| 男
+			section.section.yg-info-other
+				.item
+					.label| 部门
+					.value| 流程及IT部
+				.item
+					.label| 职务
+					.value| 软件开发工程师（前端交互）
+				.item
+					.label| 电话
+					.value| 18583614632
+				.item
+					.label| 座机
+					.value| null
+				.item
+			section.btn-section
+				a.ui-btn.ui-corner-all.ui-btn-green| 发送消息
+			section.btn-section
+				a.ui-btn.ui-corner-all(href="tel:18583614632")| 拨打电话
