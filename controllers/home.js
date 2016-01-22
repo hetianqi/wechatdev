@@ -1,15 +1,11 @@
 /**
  * homeController
  */
-var Database = require('../libs/Database');
+var mssql = require('mssql');
+var config = require('../lib/config');
+var Database = require('../lib/Database');
 
 exports.index = function (req, res) {
-	res.view();
-}
-
-exports.contact = function (req, res) {
-	var db = new Database('quanxian');
-
 	res.view();
 }
 
