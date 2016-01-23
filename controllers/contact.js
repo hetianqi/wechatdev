@@ -13,8 +13,7 @@ exports.getAllList = function (req, res) {
 	var msg = '';
 	var state = true;
 	
-	db.query('select top 20 * from yuangong', function (err, data) {
-		console.log(arguments)
+	db.query('select * from yuangong', function (err, data) {
 		if (err) {
 			state = false;
 			msg = err;
