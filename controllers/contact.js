@@ -1,5 +1,6 @@
+
 /**
- * homeController
+ * contactController
  */
 var Database = require('../lib/Database');
 

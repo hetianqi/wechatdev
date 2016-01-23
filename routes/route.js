@@ -1,7 +1,8 @@
+
 var fs = require('fs');
 var config = require('../lib/config');
 
-module.exports = function (app, ctrlPath) {
+module.exports = function(app, ctrlPath) {
 	//路由入口，分发给各个控制器
 	app.all('*', function (req, res) {
 		var reqPath = req.path.split('/');
