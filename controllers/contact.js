@@ -4,16 +4,16 @@
  */
 var Database = require('../lib/Database');
 
-exports.index = function (req, res) {
+exports.index = function(req, res) {
 	res.view();
 }
 
-exports.getAllList = function (req, res) {
+exports.getAllList = function(req, res) {
 	var db = new Database('quanxian');
 	var msg = '';
 	var state = true;
 	
-	db.query('select * from yuangong', function (err, data) {
+	db.query('select * from yuangong', function(err, data) {
 		if (err) {
 			state = false;
 			msg = err;

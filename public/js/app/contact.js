@@ -13,7 +13,7 @@ define(['jqueryMobile'], function () {
 		  	theme: 'b'
 		 });
 
-		$.get('/contact/getAllList', function (res) {
+		$.get('/contact/getAllList', function(res) {
 			if (res.state) {
 				var html = '';
 
