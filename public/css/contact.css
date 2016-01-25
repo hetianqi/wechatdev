@@ -141,7 +141,8 @@
 }
 
 .yg-info-other .item {
-	padding: 15px 0;
+	display: table;
+	width: 100%;
 	border-bottom: 1px solid #ddd;
 }
 
@@ -150,15 +151,15 @@
 }
 
 .yg-info-other .label {
-	display: block;
+	display: table-cell;
 	width: 100px;
+	padding: 15px 0;
 	font-size: 16px;
-	float: left;
 }
 
 .yg-info-other .info {
+	display: table-cell;
 	font-size: 16px;
-	margin-left: 100px;
 }
 
 .btn-section {

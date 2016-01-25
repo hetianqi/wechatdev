@@ -6,6 +6,4 @@ require.config({
 	}
 });
 
-require(['config'], function (config) {
-	require(['app/' + PAGE_CONFIG.page]);
-});
+require(['app/' + PAGE_CONFIG.page]);
