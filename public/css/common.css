@@ -54,9 +54,6 @@ html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
     color: #000;
 }
-.ui-content {
-    padding: 0;
-}
 .ui-page-theme-a {
     background-color: #eee !important;
 }

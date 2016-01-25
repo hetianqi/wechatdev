@@ -5,74 +5,30 @@ block styles
 
 block body
 	#index(data-role="page", title="通讯录")
-		main(role="main", class="ui-content")
-			.search-box
+		.search-box(data-role="header", data-position="fixed")
 				input#search-contact(type="search", placeholder="部门或姓名")
+		main(role="main")
 			.divider
 			ul.item-list
 				li
-					a(href="#contactList", data-role="link", data-transition="slide", data-key="迈普通信")
+					a(href="#contactList", data-role="link", data-transition="slide")
 						.icon
 							img(src="/img/weixin.png")
 						.text
 							h3| 迈普通信
 				li
-					a(href="#contactList", data-role="link", data-transition="slide", data-key="常用电话")
+					a(href="#contactList", data-role="link", data-transition="slide")
 						.icon
 							img(src="/img/weixin.png")
 						.text
 							h3| 常用电话
 
 	#contactList(data-role="page", title="迈普通信")
-		main.ui-content(role="main")
-			.search-box
+		.search-box(data-role="header", data-position="fixed")
 				input#search-contact(type="search", placeholder="部门或姓名")
+		main(role="main")
 			.divider
 			ul.item-list
-				li.divider
-					p#nav_A| A
-				li
-					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
-						.icon
-							img(src="/img/weixin.png")
-						.text
-							p.top-text| 何霖
-							p.bottom-text| 流程及IT部
-				li
-					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
-						.icon
-							img(src="/img/weixin.png")
-						.text
-							p.top-text| 何霖
-							p.bottom-text| 流程及IT部
-				li
-					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
-						.icon
-							img(src="/img/weixin.png")
-						.text
-							p.top-text| 何霖
-							p.bottom-text| 流程及IT部
-				li
-					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
-						.icon
-							img(src="/img/weixin.png")
-						.text
-							p.top-text| 何霖
-							p.bottom-text| 流程及IT部
-				li
-					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
-						.icon
-							img(src="/img/weixin.png")
-						.text
-							p.top-text| 何霖
-							p.bottom-text| 流程及IT部
-				li
-					a(href="#contactDetail", data-role="link", data-transition="slide", data-no="何霖")
-						.icon
-							img(src="/img/weixin.png")
-						.text
-							p.top-text| 何霖
-							p.bottom-text| 流程及IT部
 		nav.nav-fixed-right
 			ol
 				li
