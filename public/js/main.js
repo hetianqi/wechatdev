@@ -7,5 +7,5 @@ require.config({
 });
 
 if (typeof PAGE_CONFIG != 'undefined') {
-	require(['app/' + PAGE_CONFIG.page]);
+	require(['app/' + PAGE_CONFIG.module + '/' + PAGE_CONFIG.page]);
 }
