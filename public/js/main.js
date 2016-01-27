@@ -6,4 +6,6 @@ require.config({
 	}
 });
 
-require(['app/' + PAGE_CONFIG.page]);
+if (typeof PAGE_CONFIG != 'undefined') {
+	require(['app/' + PAGE_CONFIG.page]);
+}

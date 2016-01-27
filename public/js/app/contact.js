@@ -1,4 +1,3 @@
-
 define(['jqueryMobile'], function () {
 	$('#contactList').on('pageshow', function(event, ui) {
 		var listContainer = $('#contactList .item-list');

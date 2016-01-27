@@ -1,4 +1,14 @@
 extend ../_layout
 
 block body
-	h1| 首页
+	#index(data-role="page", title="通讯录")
+		div(data-role="header", data-position="fixed")
+			a.ui-icon-home.ui-btn-icon-left(href="/", data-role="button")
+			h1| 微信平台
+		main(role="main")
+
+block scripts
+	script.
+		var PAGE_CONFIG = {
+			page: 'index'
+		}
