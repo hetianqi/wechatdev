@@ -32,6 +32,9 @@ define(['jqueryMobile'], function () {
 
 				$.mobile.loading('hide');
 				listContainer.data('isLoaded', true).html(html);
+			} else {
+				$.mobile.loading('hide');
+				alert(res.msg)
 			}
 		});
 	});
