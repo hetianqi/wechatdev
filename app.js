@@ -7,7 +7,6 @@ var path = require('path');
 //变量
 var app = express();
 var port = process.env.PORT || 3000;
-var ctrlPath = path.join(__dirname, 'controllers/');
 
 app.set('views', path.join(__dirname, 'views/'));
 app.set('view engine', 'jade');
@@ -19,4 +18,4 @@ app.listen(port, function () {
 	console.log('app is running on port:' + port);
 });
 
-require('./routes/route')(app, ctrlPath);
+require('./routes/route')(app);
