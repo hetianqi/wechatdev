@@ -10,12 +10,6 @@ module.exports = function(app) {
 		var action = reqPath[2] || config.route.action;
 		var ctrlPath = path.join(__dirname, '../controllers/');
 
-		fs.writeFile('test.txt', 'ctrlPath', function(err) {
-			if (err) {
-				console.log(err);
-			}
-		});
-
 		if (fs.existsSync(ctrlPath + controller + '.js')) {
 			var route = require(ctrlPath + controller);
 			
