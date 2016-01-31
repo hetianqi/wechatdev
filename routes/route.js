@@ -9,7 +9,7 @@ module.exports = function(app) {
 		var controller = reqPath[1] || config.route.controller;
 		var action = reqPath[2] || config.route.action;
 		var ctrlPath = path.join(__dirname, '../controllers/');
-		console.log(req.path)
+		
 		if (fs.existsSync(ctrlPath + controller + '.js')) {
 			var route = require(ctrlPath + controller);
 			
